@@ -26,7 +26,7 @@ poetry install
 
 **Add your `LANGTRACE_API_KEY` if you want to track/monitor the process happening in the backend.**
 
-## Running the Project
+### Running the Project
 
 To kickstart your crew of AI agents and begin task execution, run this:
 
@@ -36,6 +36,16 @@ python main.py
 
 This command initializes the instagram Crew, assembling the agents and assigning them tasks as defined in your configuration.
 
-## Understanding Your Crew
+### How Agents thinks!?
+
+![alt text](https://github.com/ft-sreedeep/instagram-automation/blob/main/docs/Screenshot%202024-07-18%20131956.png) 
+
+![alt text](https://github.com/ft-sreedeep/instagram-automation/blob/main/docs/Screenshot%202024-07-18%20132129.png)
+
+### Understanding Your Crew
 
 The instagram Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `tasks.py`, leveraging their collective skills to achieve complex objectives. The `agents.py` file outlines the capabilities and configurations of each agent in your crew.
+
+
+### Monitoring using Langtrace 
+![alt text](https://github.com/ft-sreedeep/instagram-automation/blob/main/docs/Screenshot%202024-07-18%20151905.png)
